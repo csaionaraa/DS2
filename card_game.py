@@ -16,7 +16,7 @@ class CardGame(ABC):
 
         if first_alive == second_alive:
             return Creature("Empate", -1, -1)
-
+        
         if first_alive:
             return creature_1
         else:
